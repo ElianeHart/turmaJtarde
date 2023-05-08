@@ -1,19 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 .cabeçalho
 {
     background-color: #962222;
     color: white;
     display: flex;
     justify-content: space-around;
-    padding: 24px 0;;
+    padding: 24px 0;
 }
 .cabeçalho-imagem
 {
     width: 20%;
+    padding: 20px, 0;
 }
 .cabeçalho-lista-item
 {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 16px;
     padding: 24px 0;
     font-size: 24px;
+}
+.emprendedorismo-imagem
+{
+    width: 25%;
+}
+.empreendedorismo{
+    background-color: #933333;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    padding: 300px 250px; 
+}
+.emprendedorismo-título
+{
+    padding: 24px 20px;
+}
+.empreendedorismo-conteúdo
+{
+    width: 35%;
+    padding: 100px;
+}
+.empreendedorismo-individual-imagem
+{
+    width: 25%;
+}
+.empreendedorismo-individual
+{
+    background-color: #8f4141;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 250px;
+}
+.emprendedorismo-individual-título
+{
+    padding: 24px 0;
+}
+.empreendedorismo-individual-conteúdo
+{
+    width: 35%;
 }
